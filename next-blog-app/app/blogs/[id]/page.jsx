@@ -23,7 +23,7 @@ const Page = ({params}) => {
         useEffect(()=>
         {
             fetchBlogData();
-        },[])
+        },[params.id])
   return (
     data?<>
     <div>
